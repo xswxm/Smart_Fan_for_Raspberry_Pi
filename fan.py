@@ -19,7 +19,7 @@ parser.add_argument('-i', '--interval', type=int,
 parser.add_argument('-p', '--pin', type=int, 
     help='Pin number of the Fan. default=24', default=24)
 parser.add_argument('-t', '--temp_limit', type=int, 
-    help='Fan will be turned on once the temperature is higher than this value (in celsius). default=55', default=55)
+    help='Fan will be turned on once the temperature is higher than this value (in celsius). default=60', default=60)
 args = parser.parse_args()
 
 interval = args.interval

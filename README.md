@@ -1,8 +1,8 @@
 A script designed to manage your Raspberry Pi's fan according to the CPU temperature changes.
 
 ### Modify your ordinary fan with a propriate transistor
-<img src="https://github.com/xswxm/Ticfirm-sniffer/blob/master/demo.png?raw=true" 
-alt="Demo" width="313" height="235" border="10" />
+<img src="https://github.com/xswxm/Smart_Fan_for_Raspberry_Pi/blob/master/demo.png?raw=true" 
+alt="Demo" width="249" height="224" border="10" />
 
 ### Setting Up
 Install additional modules
