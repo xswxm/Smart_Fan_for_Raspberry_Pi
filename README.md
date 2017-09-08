@@ -9,7 +9,9 @@ Both scripts works appropriately.
 For the pwm version, you may have to increse its initial speed if the fan does not spin.
 Based on the quality of your fan, it could make more noise when you are using the pwm version.
 
-### Modify your ordinary fan with an appropriate transistor
+### Modification
+You may have to modify your ordinary fan with an transistor. It can be found in some old electronic devices.
+I used an '1AM' NPN transistor so the circuit could be the following diagram. If you are using a PNP transistor, the circuit may be a little different to mine.
 <img src="https://github.com/xswxm/Smart_Fan_for_Raspberry_Pi/blob/master/demo.png?raw=true" 
 alt="Demo" width="249" height="224" border="10" />
 
