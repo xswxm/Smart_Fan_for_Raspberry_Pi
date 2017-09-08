@@ -28,26 +28,28 @@ sudo apt-get install RPi.GPIO, pigpio
 ### How to Use (without PWM)
 ```sh
 # Check help documents
-sudo python fan.py -h
+python fan.py -h
 # Run with default settings
-sudo python fan.py
+python fan.py
 # Run in the background
-sudo nohup python fan.py &
+nohup python fan.py &
 # Check CPU temperature every 2 seconds abd turn on fan on pin 24 if temperature is higher than 50 celsius
-sudo python fan.py -t 50 -i 2 -p 24
+python fan.py -t 50 -i 2 -p 24
 ```
 
 ### How to Use (with PWM)
 ```sh
+# Enable pigpio service
+sudo pigpiod
 # Check help documents
-sudo python fan_pwm.py -h
+python fan_pwm.py -h
 # Run with default settings
-sudo python fan_pwm.py
+python fan_pwm.py
 # Run in the background
-sudo nohup python fan_pwm.py &
+nohup python fan_pwm.py &
 # Check CPU temperature every 2 seconds abd turn on fan on pin 24 if temperature is higher than 50 celsius,
 # and increse the fan speed by 10% when the temperature increses by 1 celisus
-sudo python fan_pwm.py -t 50 -i 2 -p 24 -s 10
+python fan_pwm.py -t 50 -i 2 -p 24 -s 10
 ```
 
 License
