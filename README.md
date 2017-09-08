@@ -22,7 +22,8 @@ Install additional modules
 sudo apt-get update
 sudo apt-get install python python-pip
 # Install requirements
-sudo apt-get install RPi.GPIO, pigpio
+sudo pip install rpi.gpio
+sudo apt-get install pigpio python-pigpio
 ```
 
 ### How to Use (without PWM)
