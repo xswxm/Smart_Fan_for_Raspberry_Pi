@@ -17,7 +17,6 @@ I used an '1AM' NPN transistor so the circuit could be the following diagram. If
 alt="Demo" width="249" height="224" border="10" />
 
 ### Setting Up
-Install additional modules
 ```sh
 sudo apt-get update
 sudo apt-get install python python-pip
